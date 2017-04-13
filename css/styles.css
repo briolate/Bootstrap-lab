@@ -38,9 +38,10 @@ footer img {
   height: 10%;
 }
 
-div.row {
+.row {
   text-align: center;
   margin-top: 10px;
+  overflow: hidden;
 }
 
 /*div.col-md-6 {
@@ -49,6 +50,9 @@ div.row {
 .well {
   background-color: #EDF5E1;
   text-align: center;
+  padding-top: 35px;
+  padding-bottom: 20px;
+  overflow: hidden;
 }
 
 /*.side {
@@ -58,4 +62,14 @@ div.row {
   position: relative;
   top: -5px;
   box-shadow: 15px 15px 30px #000;
+}
+
+.well p {
+  padding-top: 15px;
+  font-style: italic;
+}
+
+.well span {
+  font-weight: bold;
+  font-style: normal;
 }
