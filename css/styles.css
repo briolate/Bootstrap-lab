@@ -4,6 +4,7 @@ h1 {
   color: #EDF5E1;
   font-size: 60px;
   padding: 20px 0 30px 0;
+  text-shadow: 2px 2px #05386B;
 }
 
 footer {
@@ -37,6 +38,11 @@ footer img {
   height: 10%;
 }
 
+div.row {
+  text-align: center;
+  margin-top: 10px;
+}
+
 /*div.col-md-6 {
 }*/
 
@@ -45,12 +51,11 @@ footer img {
   text-align: center;
 }
 
+/*.side {
+}*/
+
 .well:hover {
   position: relative;
   top: -5px;
   box-shadow: 15px 15px 30px #000;
-}
-
-div.row {
-  text-align: center;
 }
