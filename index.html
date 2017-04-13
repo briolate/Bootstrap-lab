@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<head>
+  <meta charset="utf-8">
+  <title>Evan's Album Reviews</title>
+  <link href="bootstrap/css/bootstrap.min.css" rel="stylesheet">
+  <link rel="stylesheet" href="css/styles.css">
+  <link href="https://fonts.googleapis.com/css?family=Righteous" rel="stylesheet">
+</head>
+
+<body>
+  <div class="container">
+    <div class="row"><h1>Evan's Album Reviews</h1></div>
+    <div class="row">
+      <div class="col-md-4">
+        <div class="well">
+          <form action="#" method="get">
+            <fieldset>
+              <legend>Your Details:</legend>
+              <label>Name: <input type="text" name="name"></label><br />
+              <label>Email: <input type="email" name="emaill"></label>
+            </fieldset><br />
+            <legend>Your Review:</legend>
+              <label for="hear-about">How did you hear about me?</label><br />
+              <select name="referer" id="hear-about">
+                <option value="google">Google</option><br />
+                <option value="friend">Friend</option>
+                <option value="advert">Advert</option>
+                <option value="other">Other</option>
+              </select><br /><br />
+              <label for "visit-again">Would you visit again?</label><br />
+              <label>
+                <input type="radio" name="rating" value="yes" />
+                Yes
+              </label>
+              <label>
+                <input type="radio" name="rating" value="no" />
+                No
+              </label>
+              <label>
+                <input type="radio" name="rating" value="maybe" />
+                Maybe
+              </label><br /><br />
+              <label for="review-next">What should I review next?</label><br />
+              <textarea rows="4" cols="30" id="comments">
+              </textarea><br /><br />
+              <label>
+                <input type="checkbox" name="subscribe" value="checked" />
+                  Sign me up for email updates
+              </label><br />
+            <input type="submit" value="Submit review">
+          </form>
+        </div>
+      </div><!--end of side panel-->
+
+      <div class="col-md-8">
+        <div class="col-md-6">
+          <div class="well">
+            <img src="images/tribe.jpg" />
+            <p>A Tribe Called Quest, We've Got it From Here...</p>
+          </div>
+        </div>
+        <div class="col-md-6">
+          <div class="well">
+            <img src="images/csh.jpg" />
+            <p>Car Seat Headrest, Teens of Denial</p>
+          </div>
+        </div>
+        <div class="col-md-6">
+          <div class="well">
+            <img src="images/chance.jpg" />
+            <p>Chance the Rapper, Coloring Book</p>
+          </div>
+        </div>
+        <div class="col-md-6">
+          <div class="well">
+            <img src="images/kanye.jpg" />
+            <p>Kanye West, The Life of Pablo</p>
+          </div>
+        </div>
+        <div class="col-md-6">
+          <div class="well">
+            <img src="images/parquet.jpg" />
+            <p>Parquet Courts, Human Performance</p>
+          </div>
+        </div>
+        <div class="col-md-6">
+          <div class="well">
+            <img src="images/paak.jpg" />
+            <p>Anderson Paak, Malibu</p>
+          </div>
+        </div>
+      </div>
+    </div><!--end of md columns-->
+
+    <div class="row">
+      <footer>
+        <span class="glyphicon glyphicon-backward"></span>
+        <a href="https://www.facebook.com/profile.php?id=2362705"
+        target="_blank">
+          <img src="images/facebook.png" /></a>
+        <a href="https://www.linkedin.com/in/evan-b-0a00a234/"
+        target="_blank">
+          <img src="images/linkedin.png" /></a>
+        <a href="https://www.instagram.com/evanarthurb/?hl=en"
+        target="_blank">
+          <img src="images/IG.png" /></a>
+        <a href="https://github.com/briolate" target="_blank">
+          <img src="images/github.png" target="_blank" /></a>
+        <span class="glyphicon glyphicon-forward"></span>
+      </footer>
+    </div><!--end of footer-->
+  </div><!--end of container-->
+
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
+  <script src="bootstrap/js/bootstrap.min.js"></script>
+</body>
+</html>
