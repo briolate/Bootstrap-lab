@@ -45,13 +45,6 @@ footer img {
 
 }
 
-.row > *:nth-child(2n+3) {
-  clear: left;
-}
-
-/*div.col-md-6 {
-}*/
-
 .well {
   background-color: #EDF5E1;
   text-align: center;
@@ -59,9 +52,6 @@ footer img {
   padding-bottom: 20px;
   overflow: hidden;
 }
-
-/*.side {
-}*/
 
 .well:hover {
   position: relative;
@@ -78,4 +68,8 @@ footer img {
   font-weight: bold;
   font-style: normal;
   font-size: 14pt;
+}
+
+#comments {
+  resize: none;
 }
