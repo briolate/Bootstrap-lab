@@ -42,6 +42,11 @@ footer img {
   text-align: center;
   margin-top: 10px;
   overflow: hidden;
+
+}
+
+.row > *:nth-child(2n+3) {
+  clear: left;
 }
 
 /*div.col-md-6 {
